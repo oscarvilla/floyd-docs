@@ -32,7 +32,7 @@ Detailed documentation for the floyd commands is available in the [documentation
 
 ## Using virtualenv to install floyd-cli
 
-We highly recommend using [virtualenv](https://virtualenv.pypa.io/en/stable/userguide/) for installing and using `floyd-cli`. This helps avoid any library version conflicts and results in a smoother installation process.
+We highly recommend using [virtualenv](https://virtualenv.pypa.io/en/stable/userguide/) for installing and using `floyd-cli`. This helps avoid any library version conflicts and results in a smoother installation process. When you use 'sudo' dont worry if some warnings appears because of root it not the owner of some directories.
 
 ```bash
 sudo pip install virtualenv
